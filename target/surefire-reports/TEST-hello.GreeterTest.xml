@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hello.GreeterTest" time="0.026" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mco/code/spring-boot-bootcamp/gs-maven/target/test-classes:/Users/mco/code/spring-boot-bootcamp/gs-maven/target/classes:/Users/mco/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar:/Users/mco/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/mco/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/Users/mco/.sdkman/candidates/java/17.0.9-zulu/zulu-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mco/code/spring-boot-bootcamp/gs-maven/target/surefire/surefirebooter-20231217132416409_3.jar /Users/mco/code/spring-boot-bootcamp/gs-maven/target/surefire 2023-12-17T13-24-15_350-jvmRun1 surefire-20231217132416409_1tmp surefire_0-20231217132416409_2tmp"/>
+    <property name="http.nonProxyHosts" value="localhost|*.localhost|127.0.0.1|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|local|*.local|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|apdgit.bankmandiri.co.id|*.apdgit.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|0.243..|*.0.243..|169.254/16|*.169.254/16|10..|*.10..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|corp.devmandiri.co.id|*.corp.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|10.204..|*.10.204..|10.243..|*.10.243..|10.254..|*.10.254..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|192.168..|*.192.168..|218.36..|*.218.36..|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|to|*.to|be|*.be|bankmandiri.co.id|*.bankmandiri.co.id"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mco/code/spring-boot-bootcamp/gs-maven/target/test-classes:/Users/mco/code/spring-boot-bootcamp/gs-maven/target/classes:/Users/mco/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar:/Users/mco/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/mco/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mco"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/mco/.sdkman/candidates/java/17.0.9-zulu/zulu-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mco/code/spring-boot-bootcamp/gs-maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mco/code/spring-boot-bootcamp/gs-maven/target/surefire/surefirebooter-20231217132416409_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="localhost|*.localhost|127.0.0.1|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|local|*.local|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|apdgit.bankmandiri.co.id|*.apdgit.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|0.243..|*.0.243..|169.254/16|*.169.254/16|10..|*.10..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|corp.devmandiri.co.id|*.corp.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|10.204..|*.10.204..|10.243..|*.10.243..|10.254..|*.10.254..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|192.168..|*.192.168..|218.36..|*.218.36..|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|to|*.to|be|*.be|bankmandiri.co.id|*.bankmandiri.co.id"/>
+    <property name="java.runtime.version" value="17.0.9+8-LTS"/>
+    <property name="user.name" value="mco"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.46+19-CA"/>
+    <property name="localRepository" value="/Users/mco/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/45/d1y449px061975785k5jp_lc0000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="/Users/mco/code/spring-boot-bootcamp/gs-maven"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.9+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="localhost|*.localhost|127.0.0.1|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|local|*.local|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|apdgit.bankmandiri.co.id|*.apdgit.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|0.243..|*.0.243..|169.254/16|*.169.254/16|10..|*.10..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|corp.devmandiri.co.id|*.corp.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|10.204..|*.10.204..|10.243..|*.10.243..|10.254..|*.10.254..|supporting.corp.bankmandiri.co.id|*.supporting.corp.bankmandiri.co.id|192.168..|*.192.168..|218.36..|*.218.36..|corp.bankmandiri.co.id|*.corp.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|supporting.devmandiri.co.id|*.supporting.devmandiri.co.id|bankmandiri.co.id|*.bankmandiri.co.id|to|*.to|be|*.be|bankmandiri.co.id|*.bankmandiri.co.id"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="greeterSaysHello" classname="hello.GreeterTest" time="0.001"/>
+</testsuite>
